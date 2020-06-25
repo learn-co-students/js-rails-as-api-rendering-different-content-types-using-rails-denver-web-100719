@@ -52,7 +52,7 @@ the text you want to display:
 class BirdsController < ApplicationController
   def index
     @birds = Bird.all
-    render plain: "Hello #{@birds[3].name}"
+    render plain: "Helquitlo #{@birds[3].name}"
   end
 end
 ```
